@@ -1,0 +1,29 @@
+{
+  "name": "cookie-session",
+  "description": "cookie session middleware",
+  "repository": "expressjs/cookie-session",
+  "version": "1.0.2",
+  "keywords": [
+    "connect",
+    "express",
+    "middleware",
+    "session"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "cookies": "~0.4.0",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "connect": "*",
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require should --reporter spec --bail"
+  }
+}
