@@ -20,21 +20,52 @@ The database is structured according to the following convention:
 ```
 npm_packages/
 │
-├── package1/
-│ ├── version1/
-│ │ ├── source files...
-│ ├── version2/
-│ │ ├── source files...
-│ └── ...
+├── owner1/
+│ │
+│ ├── package1/
+│ │ │
+│ │ ├── version1/
+│ │ │ ├── source files...
+│ │ │
+│ │ ├── version2/
+│ │ │ ├── source files...
+│ │ │
+│ │ └── ...
+│ │
+│ ├── package2/
+│ │ │
+│ │ ├── version1/
+│ │ │ ├── source files...
+│ │ │
+│ │ ├── version2/
+│ │ │ ├── source files...
+│ │ │
+│ │ └── ...
 │
-├── package2/
-│ ├── version1/
-│ │ ├── source files...
-│ ├── version2/
-│ │ ├── source files...
-│ └── ...
+├── owner2/
+│ │
+│ ├── package3/
+│ │ │
+│ │ ├── version1/
+│ │ │ ├── source files...
+│ │ │
+│ │ ├── version2/
+│ │ │ ├── source files...
+│ │ │
+│ │ └── ...
+│ │
+│ ├── package4/
+│ │ │
+│ │ ├── version1/
+│ │ │ ├── source files...
+│ │ │
+│ │ ├── version2/
+│ │ │ ├── source files...
+│ │ │
+│ │ └── ...
 │
 └── ...
+
 ```
 
 Each `package` folder contains subfolders for each version of the package, containing the source code files.
