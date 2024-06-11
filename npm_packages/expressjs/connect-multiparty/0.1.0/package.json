@@ -1,0 +1,22 @@
+{
+  "name": "connect-multiparty",
+  "version": "0.1.0",
+  "description": "multipart parsing middleware for connect using multiparty",
+  "main": "index.js",
+  "repository": "",
+  "author": "Andrew Kelley <superjoe30@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "multiparty": "~2.1.4",
+    "qs": "~0.5.6",
+    "connect": "~2.7.4"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --timeout 600 test/*.js"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "bytes": "~0.2.1",
+    "should": "~1.2.2"
+  }
+}
