@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad872dc8-95e8-49b8-af49-4909fe2d7f6d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1QWXGETequFD93Qf3Jh9dp8GqiG" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Client/src/AuthUser/methods" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\methods\src\initWS" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\src\Chat\methods" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\methods\src" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\src" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\src\AuthUser\methods" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\misc" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\src\prepareFunctions\lib\performRequest" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\src\prepareFunctions\lib\prepareRequest" />
+      <recent name="F:\Node Development\Open-Sourced\bloxy\v4\src\Client\methods" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad872dc8-95e8-49b8-af49-4909fe2d7f6d" name="Default Changelist" comment="" />
+      <created>1567887227458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567887227458</updated>
+      <workItem from="1567887230176" duration="165000" />
+      <workItem from="1567887445036" duration="397000" />
+      <workItem from="1567888119107" duration="10526000" />
+      <workItem from="1567968412009" duration="328000" />
+      <workItem from="1567969783122" duration="1113000" />
+      <workItem from="1568105249219" duration="619000" />
+      <workItem from="1568229424469" duration="324000" />
+      <workItem from="1568384009627" duration="57065000" />
+      <workItem from="1568496959490" duration="2195000" />
+      <workItem from="1568531683624" duration="6368000" />
+      <workItem from="1568658191149" duration="33000" />
+      <workItem from="1568750912085" duration="2746000" />
+      <workItem from="1568808786727" duration="2658000" />
+      <workItem from="1568824823626" duration="27208000" />
+      <workItem from="1569183202075" duration="3869000" />
+      <workItem from="1569231151148" duration="3098000" />
+      <workItem from="1569516783976" duration="12219000" />
+      <workItem from="1569595968436" duration="17420000" />
+      <workItem from="1569653994646" duration="12960000" />
+      <workItem from="1569678915542" duration="645000" />
+      <workItem from="1569695030453" duration="6827000" />
+      <workItem from="1569705725514" duration="23233000" />
+      <workItem from="1569851665379" duration="1263000" />
+      <workItem from="1570026633832" duration="6644000" />
+      <workItem from="1570049294447" duration="8163000" />
+      <workItem from="1570125915456" duration="12134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

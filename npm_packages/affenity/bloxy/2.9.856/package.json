@@ -1,0 +1,22 @@
+{
+  "name": "bloxy",
+  "version": "2.9.856",
+  "description": "Testing atm",
+  "main": "./src/index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "scriptbased",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "easydata": "^1.0.1",
+    "request": "^2.88.0",
+    "signalr-client": "0.0.18"
+  },
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/MartinRBX/bloxy"
+  }
+}

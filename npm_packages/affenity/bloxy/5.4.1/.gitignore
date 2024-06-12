@@ -1,0 +1,7 @@
+node_modules
+coverage
+tests/index.js
+dist
+docs
+site
+.idea

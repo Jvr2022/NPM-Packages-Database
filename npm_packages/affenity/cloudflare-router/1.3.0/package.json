@@ -1,0 +1,55 @@
+{
+  "name": "cloudflare-router",
+  "private": false,
+  "version": "1.3.0",
+  "description": "An express-like Cloudflare Workers Router library to make processing requests much easier",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "cloudflare router",
+    "workers router",
+    "cloudflare workers router",
+    "cloudflare-workers",
+    "cloudflare-router"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --skipLibCheck",
+    "prepublish": "npm run build"
+  },
+  "author": "Visualizememe",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "tslib": "^2.1.0",
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.3.3",
+    "@types/node": "^13.13.40",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^26.6.3",
+    "joi": "^17.3.0",
+    "typescript": "^3.9.7"
+  },
+  "bugs": {
+    "url": "https://github.com/Visualizememe/cloudflare-router/issues"
+  },
+  "repository": {
+    "directory": "https://github.com/Visualizememe/cloudflare-router",
+    "url": "https://github.com/Visualizememe/cloudflare-router",
+    "type": "GitHub"
+  },
+  "types": "dist/index.d.ts",
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
