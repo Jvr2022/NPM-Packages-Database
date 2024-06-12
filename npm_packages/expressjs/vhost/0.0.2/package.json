@@ -1,0 +1,26 @@
+{
+  "name": "vhost",
+  "description": "'connect's \"vhost\" middleware, modified to accept a generic handler function. Works well with \"stack\", \"connect\", and \"http\" servers.",
+  "tags": [
+    "vhost",
+    "connect",
+    "stack",
+    "http",
+    "server"
+  ],
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://gist.github.com/820042.git"
+  },
+  "homepage": "https://gist.github.com/820042",
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "main": "./vhost.js",
+  "engines": {
+    "node": "*"
+  },
+  "directories": {},
+  "files": [
+    ""
+  ]
+}

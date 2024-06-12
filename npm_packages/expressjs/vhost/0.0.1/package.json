@@ -1,0 +1,11 @@
+{
+  "name": "vhost",
+  "description": "'connect's \"vhost\" middleware, modified to accept a generic handler function. Works well with \"stack\".",
+  "version": "0.0.1",
+  "repository": "git://gist.github.com/820042.git",
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "main": "./vhost",
+  "engines": {
+    "node": "*"
+  }
+}
