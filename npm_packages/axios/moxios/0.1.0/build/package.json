@@ -1,0 +1,26 @@
+{
+  "name": "moxios",
+  "version": "0.1.0",
+  "description": "Mock axios requests for testing",
+  "main": "index.js",
+  "files": [
+    "build/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzabriskie/moxios.git"
+  },
+  "keywords": [
+    "axios",
+    "test",
+    "testing",
+    "mock",
+    "mocking"
+  ],
+  "author": "Matt Zabriskie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzabriskie/moxios/issues"
+  },
+  "homepage": "https://github.com/mzabriskie/moxios#readme"
+}
