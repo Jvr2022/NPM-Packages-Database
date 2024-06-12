@@ -1,0 +1,32 @@
+{
+  "name": "cb-insight",
+  "version": "0.0.2",
+  "description": "common blockchain wrapper for Bitpay Insight APIs",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --timeout 15000 --grep \"Addresses Summary|Unspents\"  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/cb-insight"
+  },
+  "keywords": [
+    "bitcoin",
+    "blockchain",
+    "insight"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/cb-insight/issues"
+  },
+  "homepage": "https://github.com/jprichardson/cb-insight",
+  "devDependencies": {
+    "cb-tester": "^0.1.11",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "superagent": "^0.21.0"
+  }
+}

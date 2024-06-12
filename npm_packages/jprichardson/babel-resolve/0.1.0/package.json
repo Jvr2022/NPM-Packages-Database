@@ -1,0 +1,33 @@
+{
+  "name": "babel-resolve",
+  "version": "0.1.0",
+  "description": "Create a resolve function for babel/register.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprichardson/babel-resolve.git"
+  },
+  "keywords": [
+    "babel",
+    "local",
+    "modules",
+    "register",
+    "resolve"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/babel-resolve/issues"
+  },
+  "homepage": "https://github.com/jprichardson/babel-resolve#readme",
+  "dependencies": {
+    "clone": "^1.0.2"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "buzz",
+  "version": "0.2.0",
+  "description": "Buzz is a command line app to kill an app and then restart it, over and over again. Similar to Forever.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/buzz"
+  },
+  "keywords": [
+    "kill",
+    "restart",
+    "forever",
+    "buzz",
+    "death",
+    "process"
+  ],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jprichardson/buzz/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "death": "~0.1.0",
+    "commander": "~2.0.0",
+    "colors": "~0.6.2"
+  },
+  "bin": {
+    "buzz": "./bin/buzz"
+  },
+  "main": "buzz",
+  "preferGlobal": true,
+  "devDependencies": {
+    "testutil": "~0.6.0",
+    "mocha": "*"
+  }
+}

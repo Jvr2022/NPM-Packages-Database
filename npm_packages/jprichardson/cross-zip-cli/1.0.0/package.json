@@ -1,0 +1,55 @@
+{
+  "name": "cross-zip-cli",
+  "description": "Zip directories cross platform from the CLI.",
+  "version": "1.0.0",
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "bin": {
+    "cross-unzip": "unzip.js",
+    "cross-zip": "zip.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jprichardson/cross-zip-cli/issues"
+  },
+  "dependencies": {
+    "cross-zip": "^2.1.3",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "cross-spawn": "^4.0.0",
+    "fs-extra": "^0.30.0",
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "unzip.js",
+    "unzip-usage.txt",
+    "zip.js",
+    "zip-usage.txt"
+  ],
+  "homepage": "https://github.com/jprichardson/cross-zip-cli",
+  "keywords": [
+    "cli",
+    "linux",
+    "mac",
+    "osx",
+    "unzip",
+    "windows",
+    "zip"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/cross-zip-cli.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape test/*.js | tap-spec"
+  }
+}

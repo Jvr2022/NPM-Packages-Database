@@ -1,0 +1,47 @@
+{
+  "name": "browser-storage",
+  "version": "0.0.2",
+  "description": "Normalizes local storage behavior for the browser and node",
+  "main": "lib/browser-storage.js",
+  "author": "JP Richardson",
+  "license": "MIT",
+  "homepage": "https://github.com/jprichardson/browser-storage",
+  "keywords": [
+    "browser",
+    "storage",
+    "local",
+    "local-storage",
+    "browserify",
+    "session",
+    "session-storage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jprichardson/browser-storage"
+  },
+  "devDependencies": {
+    "coveralls": "~2.10.0",
+    "mocha": "^1.20.1",
+    "mocha-lcov-reporter": "0.0.1"
+  },
+  "testling": {
+    "browsers": [
+      "android-browser/4.2..latest",
+      "chrome/20..latest",
+      "firefox/21..latest",
+      "ipad/6..latest",
+      "iphone/6..latest",
+      "opera/15..latest",
+      "safari/latest"
+    ],
+    "harness": "mocha-bdd",
+    "files": "test/*.js"
+  },
+  "scripts": {
+    "test": "npm run-script unit",
+    "unit": "./node_modules/.bin/_mocha test/*.js"
+  },
+  "dependencies": {
+    "node-localstorage": "^0.3.4"
+  }
+}
