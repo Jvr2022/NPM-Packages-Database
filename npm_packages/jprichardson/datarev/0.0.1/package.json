@@ -1,0 +1,28 @@
+{
+  "name": "datarev",
+  "version": "0.0.1",
+  "description": "library that you can use to store data revisions or changes in an object.",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/datarev"
+  },
+  "keywords": [],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "deep-is": "~0.1.2"
+  },
+  "devDependencies": {
+    "testutil": "~0.5.1"
+  },
+  "main": "./lib/datarev.js",
+  "scripts": {
+    "test": "mocha test"
+  }
+}

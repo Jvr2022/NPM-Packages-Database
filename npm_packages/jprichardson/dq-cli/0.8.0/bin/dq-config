@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../cli/dq-config').apply(null, process.argv)

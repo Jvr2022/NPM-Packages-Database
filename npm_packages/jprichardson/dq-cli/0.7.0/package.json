@@ -1,0 +1,44 @@
+{
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "name": "dq-cli",
+  "description": "Command lines to interface with dq (Redis priority queue)",
+  "version": "0.7.0",
+  "keywords": [
+    "dq",
+    "priority",
+    "queue",
+    "redis",
+    "cli"
+  ],
+  "homepage": "http://github.com/jprichardson/dq-cli",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jprichardson/dq-cli.git"
+  },
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "dependencies": {
+    "byline": "^4.2.1",
+    "commander": "^2.7.1",
+    "dq": "^0.7.0",
+    "path-extra": "^1.0.2"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "mocha": "*",
+    "proxyquire": "^1.4.0",
+    "standard": "^3.2.0",
+    "terst": "^0.3.0"
+  },
+  "bin": {
+    "dq-count": "./bin/dq-count",
+    "dq-delete": "./bin/dq-delete",
+    "dq-import": "./bin/dq-import",
+    "dq-export": "./bin/dq-export",
+    "dq-view": "./bin/dq-view",
+    "dq-config": "./bin/dq-config",
+    "dq-list": "./bin/dq-list"
+  },
+  "preferGlobal": true
+}

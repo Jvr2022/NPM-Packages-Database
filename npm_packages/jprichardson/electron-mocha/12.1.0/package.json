@@ -1,0 +1,66 @@
+{
+  "name": "electron-mocha",
+  "version": "12.1.0",
+  "description": "Mocha tests in Electron.",
+  "main": "lib/main.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "npm run test:main && npm run test:renderer",
+    "test:main": "node bin/electron-mocha --config .mocharc.main.json test/main",
+    "test:renderer": "node bin/electron-mocha --config .mocharc.renderer.json test/renderer",
+    "mocha": "node bin/electron-mocha",
+    "prepublishOnly": "npm test"
+  },
+  "mocha": {
+    "color": true,
+    "require-main": [
+      "test/support/requireMain.js"
+    ],
+    "require": [
+      "test/support/require.js"
+    ]
+  },
+  "bin": {
+    "electron-mocha": "./bin/electron-mocha"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprichardson/electron-mocha.git"
+  },
+  "keywords": [
+    "mocha",
+    "electron",
+    "electron-tool",
+    "test",
+    "testing",
+    "tdd",
+    "bdd",
+    "browser",
+    "browser testing"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/electron-mocha/issues"
+  },
+  "homepage": "https://github.com/jprichardson/electron-mocha#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "electron-window": "^0.8.0",
+    "mocha": "^10.2.0",
+    "which": "^3.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "electron": "^25.3.2",
+    "standard": "^17.1.0"
+  },
+  "standard": {
+    "envs": [
+      "mocha"
+    ]
+  }
+}

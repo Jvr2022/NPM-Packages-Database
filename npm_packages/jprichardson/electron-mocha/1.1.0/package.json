@@ -1,0 +1,46 @@
+{
+  "name": "electron-mocha",
+  "version": "1.1.0",
+  "description": "Mocha tests in Electron.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && ./bin/electron-mocha test/main && ./bin/electron-mocha --renderer test/renderer",
+    "mocha": "./bin/electron-mocha",
+    "prepublish": "npm test"
+  },
+  "bin": {
+    "electron-mocha": "./bin/electron-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprichardson/electron-mocha.git"
+  },
+  "keywords": [
+    "mocha",
+    "electron",
+    "electron-tool",
+    "test",
+    "testing",
+    "tdd",
+    "bdd",
+    "browser",
+    "browser testing"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/electron-mocha/issues"
+  },
+  "homepage": "https://github.com/jprichardson/electron-mocha#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "electron-window": "^0.6.0",
+    "fs-extra": "^0.26.7",
+    "mocha": "^2.4.5",
+    "which": "^1.1.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5",
+    "standard": "^6.0.8"
+  }
+}
