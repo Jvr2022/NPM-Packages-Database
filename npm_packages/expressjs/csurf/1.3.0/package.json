@@ -1,0 +1,36 @@
+{
+  "name": "csurf",
+  "description": "CSRF token middleware",
+  "version": "1.3.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "expressjs/csurf",
+  "dependencies": {
+    "cookie": "0.1.2",
+    "cookie-signature": "1.0.4",
+    "csrf-tokens": "~2.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "~1.3.0",
+    "connect": "3",
+    "cookie-parser": "~1.3.1",
+    "cookie-session": "~1.0.2",
+    "istanbul": "0.2.14",
+    "mocha": "~1.20.1",
+    "should": "~4.0.4",
+    "supertest": "~0.13.0"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --check-leaks --reporter spec --bail test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/"
+  }
+}

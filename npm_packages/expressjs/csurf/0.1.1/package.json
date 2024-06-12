@@ -1,0 +1,23 @@
+{
+  "name": "csurf",
+  "description": "CSRF middleware",
+  "version": "0.1.1",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "dependencies": {
+    "uid": "~0.0.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/discore/csurf.git"
+  },
+  "bugs": {
+    "mail": "me@jongleberry.com",
+    "url": "https://github.com/discore/csurf/issues"
+  }
+}
