@@ -1,0 +1,44 @@
+{
+  "name": "express-paginate",
+  "version": "0.0.8",
+  "description": "Node.js pagination middleware and view helpers",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niftylettuce/express-paginate.git"
+  },
+  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "contributors": [
+    {
+      "name": "Esco Obong",
+      "email": "menzoic@gmail.com"
+    },
+    {
+      "name": "Matheus Marchini",
+      "email": "matheusdot@gmail.com"
+    },
+    {
+      "name": "Carlo Bernaschina"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/niftylettuce/express-paginate/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/niftylettuce/express-paginate",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --reporter spec --bail --check-leaks --require test/support/should test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks --require test/support/should  test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks --require test/support/should test/"
+  }
+}

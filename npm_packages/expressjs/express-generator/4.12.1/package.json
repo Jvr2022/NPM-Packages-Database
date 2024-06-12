@@ -1,0 +1,54 @@
+{
+  "name": "express-generator",
+  "description": "Express' application generator",
+  "version": "4.12.1",
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "contributors": [
+    "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
+    "Ciaran Jessup <ciaranj@gmail.com>",
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Guillermo Rauch <rauchg@gmail.com>",
+    "Jonathan Ong <me@jongleberry.com>",
+    "Roman Shtylman <shtylman+expressjs@gmail.com>"
+  ],
+  "keywords": [
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "repository": "expressjs/generator",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "2.6.0",
+    "mkdirp": "0.5.0",
+    "sorted-object": "1.0.0"
+  },
+  "main": "bin/express",
+  "preferGlobal": true,
+  "bin": {
+    "express": "./bin/express"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "rimraf": "~2.2.8",
+    "supertest": "~0.15.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "files": [
+    "LICENSE",
+    "bin/",
+    "templates/"
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-ci": "mocha --reporter spec --check-leaks test/"
+  }
+}
